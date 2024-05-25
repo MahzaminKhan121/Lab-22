@@ -1,0 +1,51 @@
+ 
+ul{
+	display: flex;
+	background: teal;
+}
+li{
+	width: 100%;
+	border: 1px solid red;
+	list-style: none;
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	background: teal;
+	flex-direction: row-reverse;
+}
+div{
+	margin: 10px;
+	width: 100px;
+	border: 1px solid red;
+}
+footer{
+	display: flex;
+	flex-direction: column-reverse;
+}
+footer a{
+	text-decoration: none;
+	background:  blue;
+	color: white;
+}
+.jus-con{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	justify-content: space-evenlyS;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* vvi */
+	justify-content: (start, end, center) (space-between. space-around , space-evenly){left to right}
+	align-items: (start, end, center) (top to bottom)
+/* vvi */
